@@ -28,9 +28,7 @@ app.use((req, res) => {
     // 2nd index ignores leading slash
     if (req.url.split("/")[1] !== "api") {
         // serve requested view
-        console.log("fkdsa;lfjasdklfja")
         res.sendFile(path.join(VIEW_PATH, `${req.url}.html`), (err) => {
-            console.log("fkdsa;lfjasdklfja")
             if (err)
                 res.sendFile(path.join(VIEW_PATH, "404.html"))
         })
