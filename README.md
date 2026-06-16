@@ -1,10 +1,10 @@
-# WEB103 Project 1 - Editor List
+# WEB103 Project 2 - *Editor List*
 
 Submitted by: **Christopher Lin**
 
-About this web app: **Webapp to list some text editor options**
+About this web app: **Lists text editor information**
 
-Time spent: **5** hours
+Time spent: **2** hours
 
 ## Required Features
 
@@ -12,17 +12,14 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+- [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
@@ -30,22 +27,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<div>
-    <a href="https://www.loom.com/share/273cc906992e4ca59aeaab3a017d18d6">
-      <p>Editor List - 10 June 2026 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/273cc906992e4ca59aeaab3a017d18d6">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/273cc906992e4ca59aeaab3a017d18d6-0a170a4c459792c6-full-play.gif#t=0.1">
-    </a>
-  </div>
-
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Loom
+GIF created with ...  GIF tool here
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
